@@ -41,7 +41,9 @@ export function Header() {
             <div className="hidden md:block">
               <span>Free shipping on orders over 500 DH</span>
             </div>
-            <LanguageSwitcher />
+            <div className="language-switcher">
+              <LanguageSwitcher />
+            </div>
           </div>
         </div>
       </div>

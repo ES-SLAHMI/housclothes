@@ -18,14 +18,14 @@ export function LanguageSwitcher() {
   const currentLanguage = languages.find((lang) => lang.code === language)
 
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="sm" className="gap-2">
+        <Button variant="ghost" size="sm" className="gap-2 relative z-50">
           <Globe className="h-4 w-4" />
           <span className="hidden sm:inline">{currentLanguage?.name}</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent align="end" className="z-[60]">
         {languages.map((lang) => (
           <DropdownMenuItem
             key={lang.code}

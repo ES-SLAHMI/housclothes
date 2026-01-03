@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "House of Kickz Morocco - Premium Sneakers & Streetwear",
   description:
     "Discover the latest sneakers and streetwear fashion in Morocco. Authentic brands, premium quality, fast delivery.",
-  generator: "v0.app",
+  generator: "by me ",
 }
 
 export default function RootLayout({

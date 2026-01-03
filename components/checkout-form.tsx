@@ -38,14 +38,14 @@ const mockCartItems = [
   {
     id: 1,
     name: "Air Jordan 1 Retro High",
-    price: 1299,
+    price: 100,
     quantity: 1,
     image: "/air-jordan-1-retro-high-sneakers.jpg",
   },
   {
     id: 2,
     name: "Nike Dunk Low",
-    price: 899,
+    price: 100,
     quantity: 2,
     image: "/nike-dunk-low-sneakers.jpg",
   },
